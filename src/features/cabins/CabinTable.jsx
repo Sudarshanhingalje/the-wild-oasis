@@ -32,11 +32,9 @@ function CabinTable() {
 
   if (isLoading) return <Spinner />;
 
-  if (isLoading) return <Spinner />;
-
   return (
-    <Table role="table">
-      <TableHeader role="row">
+    <Table columns="0.6fr 1.8fr 2.2fr 1fr 1fr 1fr">
+      <TableHeader>
         <div>Cabin</div>
         <div>Guest</div>
         <div>Price</div>
