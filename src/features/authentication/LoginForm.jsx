@@ -1,14 +1,34 @@
 import { useState } from "react";
 import Button from "../../ui/Button";
 import Form from "../../ui/Form";
-import Input from "../../ui/Input";
 import FormRowVertical from "../../ui/FormRowVertical";
+import Input from "../../ui/Input";
+import SpinnerMini from "../../ui/SpinnerMini";
+import { useLogin } from "./useLogin";
 
 function LoginForm() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
-  function handleSubmit() {}
+  const { login, isLoading } = useLogin();
+
+  if (isLoading);
+
+  function handleSubmit(e) {
+    e.preventDefault();
+    if (!email || !password) return;
+    login(
+      { email, password },
+      {
+        //to clear if the  wrong data entered
+        //onSeelted also like on Success or OnError buit function of react query
+        onSettled: () => {
+          setEmail("");
+          setPassword("");
+        },
+      }
+    );
+  }
 
   return (
     <Form onSubmit={handleSubmit}>
@@ -32,7 +52,9 @@ function LoginForm() {
         />
       </FormRowVertical>
       <FormRowVertical>
-        <Button size="large">Login</Button>
+        <Button size="large" disabled={isLoading}>
+          {!isLoading ? "Log in" : <SpinnerMini />}
+        </Button>
       </FormRowVertical>
     </Form>
   );
