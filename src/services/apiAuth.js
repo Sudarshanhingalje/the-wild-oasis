@@ -24,3 +24,19 @@ export async function logout() {
   const { error } = await supabase.auth.signOut();
   if (error) console.log(error.message);
 }
+
+//sign up data save into user data base
+
+export async function signup({ email, password }) {
+  const { data, error } = await supabase.auth.signUp({
+    email,
+    password,
+    options: {
+      data: {
+        avatar: " ",
+      },
+    },
+  });
+  if (error) throw new Error(error.message);
+  return data;
+}
