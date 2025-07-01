@@ -1,10 +1,6 @@
 import { format, isToday } from "date-fns";
-import {
-  HiArrowDownOnSquare,
-  HiArrowUpOnSquare,
-  HiEye,
-  HiTrash,
-} from "react-icons/hi2";
+import { BsArrowLeftSquare, BsArrowRightSquare } from "react-icons/bs";
+import { HiEye, HiTrash } from "react-icons/hi2";
 import { useNavigate } from "react-router-dom";
 import styled from "styled-components";
 
@@ -108,7 +104,7 @@ function BookingRow({
 
             {status === "unconfirmed" && (
               <Menus.Button
-                icon={<HiArrowDownOnSquare />}
+                icon={<BsArrowRightSquare />}
                 onClick={() => navigate(`/checkin/${bookingId}`)}
               >
                 Check in
@@ -117,7 +113,7 @@ function BookingRow({
 
             {status === "checked-in" && (
               <Menus.Button
-                icon={<HiArrowUpOnSquare />}
+                icon={<BsArrowLeftSquare />}
                 onClick={() => checkout(bookingId)}
                 disabled={isCheckingOut}
               >

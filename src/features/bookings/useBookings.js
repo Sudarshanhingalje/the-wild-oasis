@@ -4,6 +4,7 @@ import { getBookings } from "../../services/apiBookings";
 import { PAGE_SIZE } from "../../utils/constants";
 
 export function useBookings() {
+  //to fteach that data and store into the cache prefeached data
   const queryClient = useQueryClient();
   const [searchParams] = useSearchParams();
 

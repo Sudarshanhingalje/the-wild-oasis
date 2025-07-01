@@ -3,8 +3,8 @@ import {
   HiOutlineChatBubbleBottomCenterText,
   HiOutlineCheckCircle,
   HiOutlineCurrencyDollar,
-  HiOutlineHomeModern,
 } from "react-icons/hi2";
+import { MdOutlineHotel } from "react-icons/md";
 import styled from "styled-components";
 
 import DataItem from "../../ui/DataItem";
@@ -123,7 +123,7 @@ function BookingDataBox({ booking }) {
     <StyledBookingDataBox>
       <Header>
         <div>
-          <HiOutlineHomeModern />
+          <MdOutlineHotel />
           <p>
             {numNights} nights in Cabin <span>{cabinName}</span>
           </p>
