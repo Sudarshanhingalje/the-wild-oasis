@@ -5,38 +5,19 @@
 A full-stack hotel dashboard for managing cabins, bookings, and guests.  
 Built for internal use by hotel staff, this app brings everything together—from guest data and check-ins to booking reports and cabin availability.
 
----
 
 ## 📸 Screenshots
 
-### 📊 Dashboard Overview  
-[![Dashboard Overview](https://github.com/user-attachments/assets/4a7f30dd-bfb1-4ab3-8ca1-d68272a2c8a4)](https://github.com/user-attachments/assets/4a7f30dd-bfb1-4ab3-8ca1-d68272a2c8a4)
+- [📊 Dashboard Overview](https://github.com/user-attachments/assets/4a7f30dd-bfb1-4ab3-8ca1-d68272a2c8a4)
+- [🏡 Cabins Management](https://github.com/user-attachments/assets/9dfd36a1-fe8c-499d-91dd-daf93623fc89)
+- [✍️ Add New Cabin](https://github.com/user-attachments/assets/c64c3f8f-027e-480e-afc1-77a0808143a1)
+- [📦 Bookings Table](https://github.com/user-attachments/assets/6f0c3753-4176-4a72-bdf1-a06fe762d317)
+- [➕ Create Booking](https://github.com/user-attachments/assets/c6319dc0-28a9-4352-a406-3b04639df3d1)
+- [🧑 Guests Table](https://github.com/user-attachments/assets/16eb96d6-11d6-48f3-9371-c82c94040703)
+- [🔍 Guest Detail View](https://github.com/user-attachments/assets/9c3d2ef2-c805-4369-953e-6fb9aa65503e)
+- [🧮 Statistics Panel](https://github.com/user-attachments/assets/2f3d7953-1ff0-4526-9846-f45b9225e47b)
+- [⚙️ Settings Panel](https://github.com/user-attachments/assets/4c6022cf-90f1-4932-b5db-d8a526d36368)
 
-### 🏡 Cabins Management  
-[![Cabins](https://github.com/user-attachments/assets/9dfd36a1-fe8c-499d-91dd-daf93623fc89)](https://github.com/user-attachments/assets/9dfd36a1-fe8c-499d-91dd-daf93623fc89)
-
-### ✍️ Add New Cabin  
-[![Add Cabin](https://github.com/user-attachments/assets/c64c3f8f-027e-480e-afc1-77a0808143a1)](https://github.com/user-attachments/assets/c64c3f8f-027e-480e-afc1-77a0808143a1)
-
-### 📦 Bookings Table  
-[![Bookings](https://github.com/user-attachments/assets/6f0c3753-4176-4a72-bdf1-a06fe762d317)](https://github.com/user-attachments/assets/6f0c3753-4176-4a72-bdf1-a06fe762d317)
-
-### ➕ Create Booking  
-[![Create Booking](https://github.com/user-attachments/assets/c6319dc0-28a9-4352-a406-3b04639df3d1)](https://github.com/user-attachments/assets/c6319dc0-28a9-4352-a406-3b04639df3d1)
-
-### 🧑 Guests Table  
-[![Guests](https://github.com/user-attachments/assets/16eb96d6-11d6-48f3-9371-c82c94040703)](https://github.com/user-attachments/assets/16eb96d6-11d6-48f3-9371-c82c94040703)
-
-### 🔍 Guest Detail View  
-[![Guest Details](https://github.com/user-attachments/assets/9c3d2ef2-c805-4369-953e-6fb9aa65503e)](https://github.com/user-attachments/assets/9c3d2ef2-c805-4369-953e-6fb9aa65503e)
-
-### 🧮 Statistics Panel  
-[![Stats](https://github.com/user-attachments/assets/2f3d7953-1ff0-4526-9846-f45b9225e47b)](https://github.com/user-attachments/assets/2f3d7953-1ff0-4526-9846-f45b9225e47b)
-
-### ⚙️ Settings Panel  
-[![Settings](https://github.com/user-attachments/assets/4c6022cf-90f1-4932-b5db-d8a526d36368)](https://github.com/user-attachments/assets/4c6022cf-90f1-4932-b5db-d8a526d36368)
-
----
 ## 🛠 Tech Stack
 
 | Layer     | Technology                                      |
