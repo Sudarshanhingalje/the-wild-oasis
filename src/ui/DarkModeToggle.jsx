@@ -10,6 +10,7 @@ function DarkModeToggle() {
     const audio = new Audio(
       isDarkMode ? "/switch-on.mp3" : "/sounds/switch-off.mp3"
     );
+
     audio.play();
 
     // Toggle the theme
