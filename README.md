@@ -3,7 +3,7 @@
 
 ![Untitled diagram _ Mermaid Chart-2025-07-02-092435](https://github.com/user-attachments/assets/cfc6423f-e741-4ebb-9eb1-cea680c082ec)
 # 🌴 The Wild Oasis
-
+### 🚀 [Live Demo →](https://hotelthe-wild-oasis.netlify.app/)
 A full-stack hotel dashboard for managing cabins, bookings, and guests.  
 Built for internal use by hotel staff, this app brings everything together—from guest data and check-ins to booking reports and cabin availability.
 
