@@ -75,7 +75,7 @@ function DurationChart({ confirmedStays }) {
           activeOuterRadiusOffset={8}
           colors={({ data }) => data.color}
           arcLinkLabelsSkipAngle={10}
-          arcLinkLabelsTextColor={isDarkMode ? "#e5e7eb" : "#333"} // Tailwind gray-200
+          arcLinkLabelsTextColor={isDarkMode ? "#e5e7eb" : "#333"}
           arcLabelsTextColor={{
             from: "color",
             modifiers: isDarkMode ? [["brighter", 2]] : [["darker", 2]],
@@ -88,6 +88,7 @@ function DurationChart({ confirmedStays }) {
               itemWidth: 100,
               itemHeight: 18,
               symbolShape: "circle",
+              itemTextColor: isDarkMode ? "#ffffff" : "#333333", //
             },
           ]}
         />
