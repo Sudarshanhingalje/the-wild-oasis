@@ -7,18 +7,36 @@ Built for internal use by hotel staff, this app brings everything together—fro
 
 ---
 
-## 📸 Preview
-![Screenshot 2025-07-02 142339](https://github.com/user-attachments/assets/4a7f30dd-bfb1-4ab3-8ca1-d68272a2c8a4)
-![Screenshot 2025-07-02 142455](https://github.com/user-attachments/assets/9dfd36a1-fe8c-499d-91dd-daf93623fc89)
-![Screenshot 2025-07-02 142600](https://github.com/user-attachments/assets/c64c3f8f-027e-480e-afc1-77a0808143a1)
-![Screenshot 2025-07-02 142701](https://github.com/user-attachments/assets/6f0c3753-4176-4a72-bdf1-a06fe762d317)
-![Screenshot 2025-07-02 142721](https://github.com/user-attachments/assets/c6319dc0-28a9-4352-a406-3b04639df3d1)
-![Screenshot 2025-07-02 142953](https://github.com/user-attachments/assets/16eb96d6-11d6-48f3-9371-c82c94040703)
-![Screenshot 2025-07-02 142922](https://github.com/user-attachments/assets/9c3d2ef2-c805-4369-953e-6fb9aa65503e)
-![Screenshot 2025-07-02 143021](https://github.com/user-attachments/assets/2f3d7953-1ff0-4526-9846-f45b9225e47b)
-![Screenshot 2025-07-02 143034](https://github.com/user-attachments/assets/4c6022cf-90f1-4932-b5db-d8a526d36368)
+## 📸 Screenshots
 
+### 📊 Dashboard Overview  
+[![Dashboard Overview](https://github.com/user-attachments/assets/4a7f30dd-bfb1-4ab3-8ca1-d68272a2c8a4)](https://github.com/user-attachments/assets/4a7f30dd-bfb1-4ab3-8ca1-d68272a2c8a4)
 
+### 🏡 Cabins Management  
+[![Cabins](https://github.com/user-attachments/assets/9dfd36a1-fe8c-499d-91dd-daf93623fc89)](https://github.com/user-attachments/assets/9dfd36a1-fe8c-499d-91dd-daf93623fc89)
+
+### ✍️ Add New Cabin  
+[![Add Cabin](https://github.com/user-attachments/assets/c64c3f8f-027e-480e-afc1-77a0808143a1)](https://github.com/user-attachments/assets/c64c3f8f-027e-480e-afc1-77a0808143a1)
+
+### 📦 Bookings Table  
+[![Bookings](https://github.com/user-attachments/assets/6f0c3753-4176-4a72-bdf1-a06fe762d317)](https://github.com/user-attachments/assets/6f0c3753-4176-4a72-bdf1-a06fe762d317)
+
+### ➕ Create Booking  
+[![Create Booking](https://github.com/user-attachments/assets/c6319dc0-28a9-4352-a406-3b04639df3d1)](https://github.com/user-attachments/assets/c6319dc0-28a9-4352-a406-3b04639df3d1)
+
+### 🧑 Guests Table  
+[![Guests](https://github.com/user-attachments/assets/16eb96d6-11d6-48f3-9371-c82c94040703)](https://github.com/user-attachments/assets/16eb96d6-11d6-48f3-9371-c82c94040703)
+
+### 🔍 Guest Detail View  
+[![Guest Details](https://github.com/user-attachments/assets/9c3d2ef2-c805-4369-953e-6fb9aa65503e)](https://github.com/user-attachments/assets/9c3d2ef2-c805-4369-953e-6fb9aa65503e)
+
+### 🧮 Statistics Panel  
+[![Stats](https://github.com/user-attachments/assets/2f3d7953-1ff0-4526-9846-f45b9225e47b)](https://github.com/user-attachments/assets/2f3d7953-1ff0-4526-9846-f45b9225e47b)
+
+### ⚙️ Settings Panel  
+[![Settings](https://github.com/user-attachments/assets/4c6022cf-90f1-4932-b5db-d8a526d36368)](https://github.com/user-attachments/assets/4c6022cf-90f1-4932-b5db-d8a526d36368)
+
+---
 ## 🛠 Tech Stack
 
 | Layer     | Technology                                      |
@@ -76,96 +94,45 @@ Built for internal use by hotel staff, this app brings everything together—fro
 - Toast notifications and modal dialogs
 
 
+## 📦 Installation
+
 ### 1. Clone the Repository
 
-git clone https://github.com/your-username/the-wild-oasis.git
+```bash
+git clone https://github.com/Sudarshanhingalje/the-wild-oasis.git
 cd the-wild-oasis
-2. Setup Supabase
-Create a new project on Supabase
-
-Import the SQL schema (tables: cabins, guests, bookings, users)
-
-Configure:
-
-Supabase URL
-
-Supabase Anon/Public Key
-
-3. Create .env File
-ini
-Copy
-Edit
-VITE_SUPABASE_URL=your-supabase-url
-VITE_SUPABASE_ANON_KEY=your-anon-key
-4. Install & Run Locally
+2. Install Dependencies
 bash
 Copy
 Edit
 npm install
-npm run dev
-5. Deploy
-Frontend: Deploy via Netlify
+3. Configure Environment Variables
+Create a .env file in the root directory:
 
-Backend: Use Supabase for live authentication, database, and file storage
-
-
-
-Backend: Use Supabase for live auth, database, and file storage
-
-🧪 Testing
-This project includes manual testing for core workflows:
-
-✅ Cabin Create / Update / Delete
-
-✅ Booking lifecycle (create, confirm, check-in, check-out)
-
-✅ Check-in logic with payment validation
-
-✅ Avatar upload & profile update
-
-✅ Visual regression testing for dark/light modes
-
-📸 Screenshots
-Include the following screenshots in /public and reference them here:
-
-Dashboard with metrics
-
-Bookings page
-
-Cabins CRUD table
-
-Check-in modal
-
-Guest info form
-
-Example:
-
-md
+env
 Copy
 Edit
-![Dashboard Screenshot](./public/dashboard.png)
-🧑‍💻 Author
-Sudarshan Hingalje
+VITE_SUPABASE_URL=your-supabase-url
+VITE_SUPABASE_ANON_KEY=your-anon-key
+⚠️ Replace with your actual Supabase credentials.
 
-GitHub: @Sudarshanhingalje
+4. Start Development Server
+bash
+Copy
+Edit
+npm run dev
+Visit: http://localhost:5174/
 
-Email: sudarshan@example.com
+🧪 Supabase Setup
+Create a Supabase project
 
-🤝 Contributing
-Pull requests, issues, and suggestions are welcome!
+Import SQL schema (cabins, guests, bookings, users)
 
-Fork the repository
+Enable Row Level Security (RLS) as needed
 
-Create your feature branch
+Get your Supabase URL & Anon Key from project settings
 
-Commit your changes
+Frontend: Deploy via Netlify
+Backend: Use Supabase for live authentication, database, and file storage
 
-Push and submit a PR
-
-📄 License
-This project is licensed under the MIT License — see the LICENSE file for details.
-
-💡 Inspired By
-Atulmy's Fullstack JavaScript Architecture
-
-The Ultimate React Course 2025
+Run
