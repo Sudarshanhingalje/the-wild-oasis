@@ -8,6 +8,8 @@ import Row from "../../ui/Row";
 import Tag from "../../ui/Tag";
 import BookingDataBox from "./BookingDataBox";
 
+import Empty from "../../ui/Empty";
+
 import { HiArrowUpOnSquare } from "react-icons/hi2";
 import { useNavigate } from "react-router-dom";
 import { useMoveBack } from "../../hooks/useMoveBack";
@@ -33,7 +35,7 @@ function BookingDetail() {
   const navigate = useNavigate();
 
   if (isLoading) return <Spinner />;
-
+  if (!booking) return <Empty resourceName="booking"></Empty>;
   const { status, id: bookingId } = booking;
 
   const statusToTagName = {
