@@ -8,6 +8,10 @@ A full-stack hotel dashboard for managing cabins, bookings, and guests.
 Built for internal use by hotel staff, this app brings everything together—from guest data and check-ins to booking reports and cabin availability.
 
 
+https://github.com/user-attachments/assets/d2c84d0d-c03c-44e0-b83d-95e95db35f37
+
+
+
 ## 📸 Screenshots
 
 - [📊 Dashboard Overview](https://github.com/user-attachments/assets/4a7f30dd-bfb1-4ab3-8ca1-d68272a2c8a4)
