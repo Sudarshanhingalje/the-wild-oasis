@@ -81,7 +81,10 @@ Built for internal use by hotel staff, this app brings everything together—fro
 
 ## 📝 My Notebook of Libraries
 
-![handwriting (1)_page-0001](https://github.com/user-attachments/assets/521a1d5d-8230-4e90-8c36-e14382be4bd4)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/521a1d5d-8230-4e90-8c36-e14382be4bd4" alt="Notebook Page" width="300" />
+</p>
+
 
 
 
