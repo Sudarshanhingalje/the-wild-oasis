@@ -76,6 +76,46 @@ Built for internal use by hotel staff, this app brings everything together—fro
 - Keyboard accessibility
 - Toast notifications and modal dialogs
 
+## 📝 3rd-Party Libraries & NPM Plugins (Notebook Style)
+react-router-dom@6 → Routing purposes
+
+json-server → JSON data fetch (virtual backend)
+
+react-leaflet → Open-source map library
+
+react-datepicker → Calendar/date picker component
+
+@reduxjs/toolkit → State management for large apps
+
+redux-thunk → Redux middleware
+
+react-redux → Redux bindings for React
+
+redux-devtools-extension → Redux debugging
+
+reduxjs/toolkit → (Duplicate entry, see #5)
+
+react-icons → Icon library
+
+@tanstack/react-query@4 → Data fetching & caching
+
+date-fns → Date utility functions
+
+react-hot-toast → Toast notifications
+
+react-hook-form@7 → Form handling
+
+flagcdn.net/download/api → Country flag API
+
+react-chartjs-2 → Charts in React
+
+react-error-boundary → Error boundaries for React
+
+
+## 📝 My Notebook of Libraries
+
+📸 [Click here to view handwritten notes](https://github.com/user-attachments/assets/your-image-link)
+
 
 ## 📦 Installation
 
