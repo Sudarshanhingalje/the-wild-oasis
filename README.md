@@ -7,6 +7,9 @@
 A full-stack hotel dashboard for managing cabins, bookings, and guests.  
 Built for internal use by hotel staff, this app brings everything together—from guest data and check-ins to booking reports and cabin availability.
 
+## 📄 Project Report
+
+[📘 View Full Project Report (PDF)](https://github.com/Sudarshanhingalje/the-wild-oasis/raw/main/The_Wild_Oasis_Project_Report.pdf)
 
 https://github.com/user-attachments/assets/d2c84d0d-c03c-44e0-b83d-95e95db35f37
 
